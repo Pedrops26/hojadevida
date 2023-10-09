@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug{
+  border: 1px solid red;
+}
+
+.title{
+  @apply text-black1 text-lg font-semibold;
+}
