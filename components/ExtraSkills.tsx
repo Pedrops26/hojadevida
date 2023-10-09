@@ -10,7 +10,7 @@ const ExtraSkills = () => {
                 <ExtraSkillsText text="Conocimientos GitHub" />
                 <ExtraSkillsText text="Conocimientos BD" />
             </div>
-            <Line />
+            <Line size='220'/>
         </div>
     );
 }
