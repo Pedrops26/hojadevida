@@ -1,6 +1,12 @@
-const Button = () => {
+interface ButtonProps{
+    handleClick: () => void;
+}
+
+const Button = ({handleClick = () => {}}: ButtonProps) => {
     return(
-        <button className="bg-yellow1 w-[154px] h-[51px] hover:cursor-pointer"> 
+        <button
+            onClick={handleClick} 
+            className="bg-yellow1 w-[154px] h-[51px] hover:cursor-pointer hover:bg-black1 hover:text-xl"> 
             ¡Contáctame!
         </button>
     );

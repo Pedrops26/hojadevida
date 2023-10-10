@@ -14,7 +14,9 @@ const MainMenu = () => {
                     <ParagraphText />
                 </div>
                 <div>
-                    <Button />
+                    <Button handleClick={()=>{
+                            (true);
+                    }}/>
                 </div>
             </div>
             <div>

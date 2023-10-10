@@ -18,8 +18,9 @@ const ProfileCard = () => {
                     </div> 
                     <span className='text-gray2 text-sm'>Desarrollador Web</span>
                 </div>
-                <Line size='220'/>
             </div>
+            <Line size={220}/>
+
         </div>
     );
 }

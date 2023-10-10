@@ -1,5 +1,5 @@
 interface LineProps{
-    size: string
+    size: number
 }
 
 const Line = ({size}: LineProps) => {

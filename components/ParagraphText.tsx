@@ -4,7 +4,7 @@ const ParagraphText = () => {
             <span className="text-gray2 w-[424px] h-[88px]">
                 Técnico en Programación de Software, CEFIT-Sena<br/>
                 Estudiante Pregrado Ingeniería de Sistemas, Universidad de Antioquia<br/>
-                Apasionado por el Frontend.
+                Apasionado por el Frontend. También emprendedor y bailarín.
             </span>
         </div>
     );
